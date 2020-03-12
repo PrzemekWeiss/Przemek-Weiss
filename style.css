@@ -1,0 +1,243 @@
+/* ------------------------------
+global styles
+------------------------------ */
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font: 85% arial, hevetica, sans-serif;
+	text-align: center;
+	color: #333;
+	background:  url(images/background.jpeg) repeat 0 0;
+}
+
+a:link { color: #000000; }
+a:visited { color: #000000; }
+a:focus { color: #000000; }
+a:hover { color: #1929b7; }
+a:active { color: red; }
+h1, h2, h3, h4, h5, h6 { margin: 0 0 .5em;
+text-align: center; }
+
+h2
+{
+	color: #000000;
+	font: 140% georgia, times, "times new roman", serif;
+}
+
+h2 a { text-decoration: none; }
+
+h3
+{
+	color: #1929b7;
+	font: 110% georgia, times, "times new roman", serif;
+}
+
+/* ------------------------------
+container styles
+------------------------------ */
+
+#container
+{
+	margin: 1em auto;
+	width: 650px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #1929b7;
+}
+
+/* ------------------------------
+header styles
+------------------------------ */
+
+#header
+{
+	height: 165px;
+	width: 100%;
+	position: relative;
+	
+	border-bottom: 1px solid #000000;
+}
+
+#header h1
+{
+	position: absolute;
+	left: -500em;
+}
+
+#skipmenu
+{
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 645px;
+	text-align: center;
+}
+
+#skipmenu a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+/* ------------------------------
+mainnav styles
+------------------------------ */
+
+#mainnav
+{
+	background: #1929b7;
+	color: #ffffff;
+	padding: 2px 0;
+	margin-bottom: 22px;
+}
+
+.button {
+  background-color: #ffffff;
+  border: 1px white;
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.2s; 
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #1929b7; 
+  color: #ffffff;
+  -webkit-transition-duration: 0.2s; 
+  transition-duration: 0.2s;
+  display: inline-block;
+}
+
+#mainnav ul
+{
+	margin: 0 0 0 0px;
+	padding: 0;
+	list-style-type: none;
+	border-left: none;
+	text-align: center;
+}
+
+#mainnav li
+{
+	display: inline;
+	padding: 0 10px;
+	border-right: none;
+	color: #ffffff;
+	text-align: center;
+}
+
+#mainnav li a
+{
+	text-decoration: none;
+	color: 000000;
+}
+
+#mainnav li a:hover
+{
+	text-decoration: none;
+	color:white;
+	background-color: ;
+}
+
+/* ------------------------------
+menu styles
+------------------------------ */
+
+#menu
+{
+	float: right;
+	width: 165px;
+	color: #000000;
+	padding-left: 15px;
+}
+
+#menu ul
+{
+	margin: 1em 0;
+	padding: 0;
+}
+
+#menu ul li
+{
+	margin: 0 0 1em;
+	padding: 0;
+	list-style-type: none;
+}
+
+/* ------------------------------
+contents styles
+------------------------------ */
+
+#contents
+{
+	float: left;
+	width: 430px;
+	margin: 0 0 0 20px;
+}
+
+#contents p { line-height: 165%; }
+.blogentry { border-bottom: 0px; 
+text-align: center;
+}
+.blogentry ul
+{
+	text-align: center;
+	margin: 1em 0;
+	padding: 0;
+	font-size: 95%;
+}
+
+.blogentry li
+{
+	list-style-type: none;
+	display: inline;
+	margin: 0;
+	padding: 0 0 0 7px;
+	text-align: center;
+}
+
+.imagefloat
+{
+	float: right;
+	padding: 2px;
+	border: 1px solid #1929b7;
+	margin: 0 0 10px 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #1929b7;
+}
+
+tr:hover {background-color:	#1929b7;
+color: ffffff;}
+
+
+
+/* ------------------------------
+footer styles
+------------------------------ */
+
+#footer
+{
+	clear: both;
+	color: #ffffff;
+	text-align: right;
+	font-size: 90%;
+	background: #1929b7;
+	padding: 5px;
+}
